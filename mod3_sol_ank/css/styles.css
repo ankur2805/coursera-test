@@ -1,0 +1,135 @@
+body {
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: #F5F7D4;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+  background-color: #0A3409;
+  border-radius: 0;
+  border: 0;
+  margin-bottom: auto;
+  height: 100px;
+}
+
+
+.navbar-brand h1 { /* Restaurant name */
+  color: #E4F132;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #222;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 25px;
+  font-size: 50px;
+  padding-top: auto;
+  padding-bottom: auto;
+
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.our-menu {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 50px;
+  text-shadow: 1px 1px 1px #222;
+}
+
+.text-content {
+  background-color: #559E54;
+  border-radius: 10px;
+  border-color: 2px solid #E4F132;
+  font-size: 2em;
+  height: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.5em;
+  overflow: auto;
+}
+
+#chic-span{
+  font-weight: bold;
+}
+
+#chic-span p {
+  text-align: left;
+  font-weight: normal;
+  padding-top: 10px;
+  font-size: 0.9em;
+
+}
+
+
+#nav-list {
+  background-color: #F5F7D4;
+  margin-top: 0;
+}
+
+hr {
+  padding: 0;
+  margin:0;
+  border:0.5px solid black;
+}
+#nav-list li a {
+  text-align: center;
+  background-color: #F5F7D4;
+  color:#333;
+  padding: 0;
+  margin:0;
+  text-shadow: .5px .3px .5px   #222;
+  font-weight: bold;
+
+}
+#nav-list a:hover {
+  background: #0A3409;
+  color: #E4F132;
+}
+.navbar-header button.navbar-toggle, .navbar-header , .icon-bar {
+  border: 1px solid #E4F132;
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+
+  .our-menu {
+    margin-bottom: 30px;
+  }
+
+  .text-content {
+    height: auto;
+  }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+  .row {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .our-menu {
+    margin-bottom: 30px;
+  }
+
+  .text-content {
+    height: auto;
+  }
+
+  .navbar-brand h1 {
+    font-size: 8vw;
+    vertical-align: middle;
+  }
+
+}
